@@ -1,0 +1,88 @@
+import com.sun.org.apache.xerces.internal.xs.StringList;
+
+import java.util.*;
+
+public class Cinemas {
+    public static void main(String[] args) {
+
+        List <String> stringList=new ArrayList<String>();
+         stringList.add("Хранители");
+        stringList.add("горечь и сладость");
+        stringList.add("форрест гамп");
+        stringList.add("день сурка");
+        stringList.add("человек дождя");
+        stringList.add("хороший плохой долбанутый");
+        stringList.add("ва банк");
+        stringList.add("Амазонки");
+        stringList.add("Вам и не снилось");
+        stringList.add("Менын атым кожа");
+        stringList.add("Табор уходит в небо");
+        stringList.add("Есения");
+        stringList.add( "Вокзал для двоих");
+        stringList.add("Одиноким предоставляется общежитие");
+        stringList.add("Кыз жибек");
+        stringList.add("Ангел в тюбитейке");
+        stringList.add("Караш караш");
+        stringList.add("Коксерек");
+        stringList.add("Одиночное плавание");
+        stringList.add("В зоне особого внимания");
+        stringList.add("Билет на миллион");
+        stringList.add("Мазандаранский тигр");
+        stringList.add("Зорький сокол");
+        stringList.add("Апачи");
+        stringList.add("Золото Маккейна");
+        stringList.add("Бельмондо кто есть кто");
+        stringList.add("Откройте полиция");
+        stringList.add("Москва любовь моя");
+        stringList.add("Бум");
+        stringList.add("Земля саннико");
+        stringList.add("робинзон");
+        stringList.add("бомзай");
+        stringList.add("Гойко митич");
+        stringList.add("Орнелла мутти");
+        stringList.add("Невезучие");
+        stringList.add("Игрушка");
+        stringList.add("Ален делон");
+        stringList.add("Пьер Решар Депардье");
+        stringList.add("Луи де Фенюс");
+        stringList.add("беглецы");
+        stringList.add("папаши");
+        stringList.add("жизнь прекрасна");
+        stringList.add("крестный отец");
+        stringList.add("Самогонщиники");
+        stringList.add("Белла мафия");
+        stringList.add("Офицеры");
+        stringList.add("Бриллиантовая рука");
+        stringList.add("Иван Васильевич меняет профессия");
+        stringList.add("Большая перемена");
+        stringList.add("Девчата");
+        stringList.add("Спортлото-82");
+        stringList.add("не может быть");
+        stringList.add("Белое солнце пустыни");
+        stringList.add("Экипаж");
+        stringList.add("Афоня");
+        stringList.add("Пришло время любить");
+        stringList.add("Собачье сердце");
+        stringList.add("Генералы песчаных карьеров");
+        stringList.add("Полосатый рейс");
+        stringList.add("Анжелика маркиза ангелов");
+        stringList.add("Мэри поппинс");
+        stringList.add("Шерлок Холмс");
+        stringList.add("Судьба человека");
+        stringList.add("Белый бим черное ухо");
+        stringList.add("Как украсть миллион");
+        stringList.add( "завтрак у тиффани");
+        stringList.add("Мимино");
+        stringList.add("Москва слезам не верит");
+        stringList.add("Служебный роман");
+        stringList.add("Операция Ы и др. приключения Шурика");
+        stringList.add("Пес барбос и необычный кросс");
+        stringList.add( "Любовь и голуби");
+        stringList.add("Джентльмены удачи");
+        stringList.add("12 стульев");
+        stringList.add("Берегись автомобиля");
+        Random rand = new Random();
+        String randomElement = stringList.get(rand.nextInt(stringList.size()));
+        System.out.println(randomElement);
+    }
+}
